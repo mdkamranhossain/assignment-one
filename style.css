@@ -6,8 +6,10 @@
     padding: 0;
     font-family: "Fira Sans", serif;
 }
-
 body{
+    background-color: #f5f5f5;
+}
+header, main{
     width: 1280px;
     margin: 0 auto;
     background-color: #f5f5f5;
@@ -645,4 +647,36 @@ input[type=email]{
     font-weight: 400;
     line-height: 19px;
     margin-top: 24px;
+}
+
+/* Footer section */
+
+footer{
+    background-color: #fff;
+    padding: 50px 160px 50px 160px;
+    text-align: center;
+}
+
+.footer-sec h1{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 32px;
+}
+
+.footer-sec hr{
+    width: 1122px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.footer-sec ul{
+    list-style: none;
+}
+
+.footer-sec ul li{
+    display: inline-block;
+    margin-left: 23px;
 }
