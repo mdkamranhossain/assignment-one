@@ -10,6 +10,7 @@
 body{
     width: 1280px;
     margin: 0 auto;
+    background-color: #f5f5f5;
 }
 
 
@@ -97,11 +98,305 @@ nav > button:hover{
     transition: .3s ease-in-out;
     width: 50%;
 }
-.banner-right{
-
-}
-
 .banner-left > button:hover{
     color: rgb(0, 106, 80);
     background-color:rgb(255, 255, 255);
 }
+
+/* Pillars of Bd section */
+
+.pillar-bd{
+    margin-bottom: 80px;
+}
+
+.pillar-bd h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.pillar-card-wrap{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.pillar-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+.pillar-card:hover{
+    background-color: rgb(198, 228, 214);
+    transition: .3s ease-in-out;
+    border: 1px solid rgb(198, 228, 214);
+}
+
+.pillar-card img{
+    margin-bottom: 24px;
+}
+
+.pillar-card h2{
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.pillar-card p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* Vision of future section */
+
+.future-section{
+    margin-bottom: 32px;
+}
+
+.future-title h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.future-title p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.future-card-wrap{
+    display: flex;
+    gap: 24px;
+}
+
+.future-card-1, .future-card-2, .future-card-3{
+    border-radius: 16px;
+    padding: 32px;
+}
+
+/* first card */
+
+.future-card-1 img{
+    width: 62px;
+}
+
+.future-card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.future-card-1 h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.future-card-1 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.future-card-1 button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* second card */
+
+.future-card-2 img{
+    width: 62px;
+}
+
+.future-card-2{
+    background-color: rgb(198, 228, 214);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.future-card-2 h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.future-card-2 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.future-card-2 button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    background:rgb(9, 161, 92);
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* third card */
+
+.future-card-3{
+    background-color: rgb(247, 235, 207);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.future-card-3 img{
+    width: 62px;
+}
+.future-card-3 h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.future-card-3 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.future-card-3  button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    background:rgb(255, 194, 57);
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* Qutation section */
+
+.qutatio-section{
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 48px 24px;
+background: url(assets/quote-bg.png),#fff;
+background-repeat: no-repeat;
+background-position: 25px 20px;
+margin-bottom: 80px;
+}
+
+.qutatio-section p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.qutatio-section h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+/* Your opinion section */
+
+.opinion-section{
+    padding: 32px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+.opinion-title h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.opinion-ques table{
+    width: 100%;
+}
+
+.opinion-ques table thead tr th{
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+
+.opinion-ques table tbody tr td{
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);  
+}
+.opinion-ques table tbody tr td select{
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    width: 100%;
+}
+
