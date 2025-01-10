@@ -1,0 +1,107 @@
+/* font-family: "Fira Sans", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+}
+
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*     Header Navigation Bar Section
+ */
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0;
+    align-items: center;
+ }
+
+ nav > h1{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+ }
+
+ nav > button{
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+ }
+
+nav > button:hover{
+    color: #fff;
+    background-color:rgb(0, 106, 80);
+}
+
+
+/* Banner Section */
+
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-left h4{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.banner-left h1{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.banner-left > button{
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background-color: rgb(0, 106, 80);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    width: 50%;
+}
+.banner-right{
+
+}
+
+.banner-left > button:hover{
+    color: rgb(0, 106, 80);
+    background-color:rgb(255, 255, 255);
+}
